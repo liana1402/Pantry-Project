@@ -1,0 +1,70 @@
+body{
+    background-color: #2F184B;
+    color: #F4EFFA;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+#navbar-container{
+    border: 2px solid #C8B1E4;
+    border-radius: 10px;
+    margin: 15px auto;
+    max-width: fit-content;
+
+}
+.nav-bar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 0;
+}
+.nav-bar-list li{
+    margin: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.nav-bar-list li:hover, .fa-pencil:hover, .fa-trash:hover{
+    color: #C8B1E4;
+}
+
+
+#body-list-container{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    max-width: 70%;
+    padding: 30px;
+}
+#items-list{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 40vh;
+}
+#items-list li{
+    margin: 8px;
+}
+.fa-pencil, .fa-trash{
+    margin: 0 5px;
+    cursor: pointer;
+}
+#new-item-input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4EFFA;
+    font-size: 1.2rem;
+    color: #F4EFFA;
+}
+#new-item-submit{
+    background-color: #F4EFFA;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+#new-item-submit:hover{
+    background-color: #C8B1E4;
+}

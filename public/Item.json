@@ -1,0 +1,31 @@
+{
+  "fruit": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "category": "category"
+    },
+    {
+      "id": 2,
+      "name": "Cucumber",
+      "category": "category"
+    }
+  ],
+  "veggies": [
+    {
+      "id": 4,
+      "name": "Lettuce",
+      "category": "category"
+    },
+    {
+      "id": 5,
+      "name": "Carrot",
+      "category": "category"
+    },
+    {
+      "id": 6,
+      "name": "Potato",
+      "category": "category"
+    }
+  ]
+}
